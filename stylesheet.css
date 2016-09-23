@@ -27,7 +27,12 @@ img{
 	left:600px;
 	top:50px;
 	float:right;
-	
+	border-radius:100%;	
+}
+
+.header{
+	font:bold 16px arial;
+	padding-top:10px;
 }
 
 .genInfo{
@@ -49,21 +54,28 @@ container{
 	max-width:400px;
 	height:auto;
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:20px;
 }
 
 hd{
-	position:absolute;
+	font:bold 16px Arial;
+	position:relative;
+	float:left;
 	left:0px;
-	padding:10px 10px 10px 10px;
+	padding:25px 10px 25px 10px;
 	border-right: 1px solid gray;
 	width:100px;
-	height:auto;
-
 }
 
 info{
+	margin-left:120px;
+	border-left:1px solid gray;
 	position: relative;
-	padding:10px 10px 10px 10px;
+	padding:3px 10px 3px 10px;
 	width:500px;
+	display:block;
+}
+
+.clearfix{
+	overflow:auto;
 }
