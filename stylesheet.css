@@ -48,7 +48,7 @@ img{
 	clear:both;
 }
 
-container{
+.container{
 	display:block;
 	left:150px;
 	max-width:400px;
@@ -57,7 +57,7 @@ container{
 	padding-bottom:20px;
 }
 
-hd{
+.hd{
 	font:bold 16px Arial;
 	position:relative;
 	float:left;
@@ -67,7 +67,7 @@ hd{
 	width:100px;
 }
 
-info{
+.info{
 	margin-left:120px;
 	border-left:1px solid gray;
 	position: relative;
